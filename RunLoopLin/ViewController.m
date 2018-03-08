@@ -21,6 +21,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [self viewDidLoad]; //递归调用，导致程序崩溃
+    
+    NSArray *array = @[@"1",@"2"];
+    NSString *errorTest =  array[3];
+    
+    
+    
+    
     _isFinished = NO;
     LINThread  *thread = [[LINThread alloc] initWithBlock:^{
         

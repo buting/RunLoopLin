@@ -17,6 +17,7 @@
 		63290BB42031EFB30072483F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BB32031EFB30072483F /* main.m */; };
 		63290BBE2031EFB30072483F /* RunLoopLinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BBD2031EFB30072483F /* RunLoopLinTests.m */; };
 		63290BC92031EFB40072483F /* RunLoopLinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BC82031EFB40072483F /* RunLoopLinUITests.m */; };
+		699BCAD42051C039009DCFC6 /* NSArray+IndexCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 699BCAD32051C039009DCFC6 /* NSArray+IndexCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		63290BC42031EFB40072483F /* RunLoopLinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopLinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63290BC82031EFB40072483F /* RunLoopLinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopLinUITests.m; sourceTree = "<group>"; };
 		63290BCA2031EFB40072483F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699BCAD22051C039009DCFC6 /* NSArray+IndexCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+IndexCheck.h"; sourceTree = "<group>"; };
+		699BCAD32051C039009DCFC6 /* NSArray+IndexCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IndexCheck.m"; sourceTree = "<group>"; };
 		CF498C5002A4DEEE0D641EE1 /* Pods-RunLoopLin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunLoopLin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunLoopLin/Pods-RunLoopLin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				63290BA42031EFB30072483F /* AppDelegate.h */,
+				699BCAD22051C039009DCFC6 /* NSArray+IndexCheck.h */,
+				699BCAD32051C039009DCFC6 /* NSArray+IndexCheck.m */,
 				63290BA52031EFB30072483F /* AppDelegate.m */,
 				63290BA72031EFB30072483F /* ViewController.h */,
 				63290BA82031EFB30072483F /* ViewController.m */,
@@ -354,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63290BA92031EFB30072483F /* ViewController.m in Sources */,
+				699BCAD42051C039009DCFC6 /* NSArray+IndexCheck.m in Sources */,
 				631C91B82043221000C64BBA /* LINThread.m in Sources */,
 				63290BB42031EFB30072483F /* main.m in Sources */,
 				63290BA62031EFB30072483F /* AppDelegate.m in Sources */,
@@ -521,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG4Q73R8TW;
 				INFOPLIST_FILE = RunLoopLin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lin.cn.RunLoopLin;
@@ -535,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG4Q73R8TW;
 				INFOPLIST_FILE = RunLoopLin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lin.cn.RunLoopLin;
