@@ -14,20 +14,20 @@
 
 + (void)load
 {
-    Method mObj= class_getClassMethod([NSURL class], @selector(objectAtIndex:));
-    Method mCX_Obj = class_getClassMethod([NSURL class], @selector(CX_objectAtIndex:));
+    Method mobjectAtIndex= class_getInstanceMethod( NSClassFromString(@"__NSArrayI"), @selector(objectAtIndex:));
+    Method mCXobjectAtIndex = class_getInstanceMethod(NSClassFromString(@"__NSArrayI"), @selector(CX_objectAtIndex:));
     
-    //2.交换这两个方法!(你调用A 个么会执行 B )
-    method_exchangeImplementations(mObj, mCX_Obj);
+    method_exchangeImplementations(mobjectAtIndex, mCXobjectAtIndex);
     
+//    objectAtIndexedSubscript
 }
 
-- (void)CX_objectAtIndex:(NSUInteger)index
+- (id)CX_objectAtIndex:(NSUInteger)index
 {
     if (index < self.count) { // 若index为合法index, 则通过新方法调用原方法
         return [self CX_objectAtIndex:index];
     }
-    NSLog(@"数组越界");
+    NSLog(@"lcx警告！数组越界");
     return nil ;
 }
 @end
