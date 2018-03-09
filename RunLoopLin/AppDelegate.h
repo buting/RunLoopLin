@@ -9,6 +9,9 @@
 // runtime为：objc_msgSend( id self, @selecto(method), @"Para")
 // C为 void method(id self, SEL _CMD, id objc)
 
+// practice the best banner
+// think about how  Block capture the instance 
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
