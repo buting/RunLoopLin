@@ -16,14 +16,36 @@
 
 @implementation ViewController
 
+- (void)demo1
+{
+    NSArray *array = @[@"1",@"2"];
+    NSString *errorTest =  [array objectAtIndex:3];
+}
 
 
+- (void)demo2
+{
+    NSObject *firstObject  = [NSObject new];
+    __attribute__((objc_precise_lifetime)) NSObject *object = [NSObject new];
+    NSObject *secondObject  = [NSObject new];
+    NSObject *thirdObject = [NSObject new];
+    
+    __unused void (^block)() = ^{
+        __unused NSObject *first = firstObject;
+        __unused NSObject *second = secondObject;
+        __unused NSObject *third = thirdObject;
+    };
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    [self viewDidLoad]; //递归调用，导致程序崩溃
     
-    NSArray *array = @[@"1",@"2"];
-    NSString *errorTest =  [array objectAtIndex:3];
+    
+//    [self demo1];
+    [self demo2];
+
+
     
     
     
