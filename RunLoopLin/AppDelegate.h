@@ -10,7 +10,9 @@
 // C为 void method(id self, SEL _CMD, id objc)
 
 // practice the best banner
-// think about how  Block capture the instance 
+// think about how  Block capture the instance
+
+// research hitEventWith
 
 #import <UIKit/UIKit.h>
 
