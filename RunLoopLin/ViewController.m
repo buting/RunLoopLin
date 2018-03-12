@@ -39,7 +39,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [self viewDidLoad]; //递归调用，导致程序崩溃
+    [self viewDidLoad]; //递归调用，导致程序崩溃
     
     
 //    [self demo1];
@@ -80,7 +80,7 @@
 }
 
 - (void)timerMethod {
-    NSLog(@"test3");
+//    NSLog(@"test3");
     if (_isFinished) {
         [NSThread exit];
     }

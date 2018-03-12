@@ -1,19 +1,29 @@
 PODS:
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.5)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - MJExtension (3.0.13)
   - SDWebImage (4.3.2):
     - SDWebImage/Core (= 4.3.2)
   - SDWebImage/Core (4.3.2)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - FMDB (~> 2.6.2)
+  - MJExtension (~> 3.0.13)
   - SDWebImage (~> 4.3.2)
 
 SPEC CHECKSUMS:
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: ae7146a5f505ea370a1e44820b4b1dc8890e2890
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
 
-PODFILE CHECKSUM: 8f6f6d700ba1e7c71406c6940ba14756c8345a10
+PODFILE CHECKSUM: d10c011c3aeacbccf76f3c2522a212bfeaeb08e0
 
 COCOAPODS: 1.4.0
