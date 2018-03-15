@@ -6,6 +6,7 @@ PODS:
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
   - MJExtension (3.0.13)
+  - Reveal-SDK (13)
   - SDWebImage (4.3.2):
     - SDWebImage/Core (= 4.3.2)
   - SDWebImage/Core (4.3.2)
@@ -15,6 +16,7 @@ DEPENDENCIES:
   - Fabric
   - FMDB (~> 2.6.2)
   - MJExtension (~> 3.0.13)
+  - Reveal-SDK
   - SDWebImage (~> 4.3.2)
 
 SPEC CHECKSUMS:
@@ -22,8 +24,9 @@ SPEC CHECKSUMS:
   Fabric: ae7146a5f505ea370a1e44820b4b1dc8890e2890
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  Reveal-SDK: ccc2b0f8014965ea448b7534a7c2c8da232b75e8
   SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
 
-PODFILE CHECKSUM: d10c011c3aeacbccf76f3c2522a212bfeaeb08e0
+PODFILE CHECKSUM: 9739e2c30d4fd18cd01f2066ab345a9e490cac76
 
 COCOAPODS: 1.4.0

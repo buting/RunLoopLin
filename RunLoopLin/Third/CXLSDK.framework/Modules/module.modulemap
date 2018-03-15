@@ -1,0 +1,6 @@
+framework module CXLSDK {
+  umbrella header "CXLSDK.h"
+
+  export *
+  module * { export * }
+}
