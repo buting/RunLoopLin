@@ -13,6 +13,7 @@
 // think about how  Block capture the instance
 
 // research hitEventWith
+// learn about WebDav , a new way to upload besides Post
 
 #import <UIKit/UIKit.h>
 
