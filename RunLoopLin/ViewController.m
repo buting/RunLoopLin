@@ -10,6 +10,7 @@
 #import "LINThread.h"
 #import <Crashlytics/Crashlytics.h>
 #import "CXLSDK/CXLSDK.h"
+#include <objc/runtime.h>
 @interface ViewController ()
 
 @property(nonatomic,strong) LINThread * thread;
@@ -38,7 +39,12 @@
 //    [self demo2];
     [self SDKDemo];
     
+
     
+}
+
+- (void)runtimeDemo{
+        Method setPlaceHolderMethod = class_getInstanceMethod(self, @selector(setPlaceholder:));
 }
 
 - (void)SDKDemo{
