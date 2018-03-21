@@ -11,6 +11,7 @@
 #import <Crashlytics/Crashlytics.h>
 #import "CXLSDK/CXLSDK.h"
 #include <objc/runtime.h>
+#import "IDTypeLin.m"
 @interface ViewController ()
 
 @property(nonatomic,strong) LINThread * thread;
@@ -38,11 +39,16 @@
 //    [self demo1];
 //    [self demo2];
     [self SDKDemo];
+//    [self ]
     
 
     
 }
+- (void)idDemo
+{
+    id_lin someObj =(__bridge id_lin)([UIButton buttonWithType:UIButtonTypeRoundedRect]);
 
+}
 - (void)runtimeDemo{
         Method setPlaceHolderMethod = class_getInstanceMethod(self, @selector(setPlaceholder:));
 }
