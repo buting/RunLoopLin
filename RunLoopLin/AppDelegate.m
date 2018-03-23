@@ -4,12 +4,13 @@
 //
 //  Created by buTing on 2018/2/12.
 //  Copyright © 2018年 buTing. All rights reserved.
-//
+// this is test for atom git
 
 #import "AppDelegate.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
 //递归打印View子树
+// atom test
 @interface AppDelegate ()
 
 @end
@@ -19,11 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [Fabric with:@[[Crashlytics class]]];
-    
+
     // TODO: Move this to where you establish a user session
     [self logUser];//CrashlyticsKit
-
-
+// atom test
+    [self demo];
     return YES;
 }
 - (void) logUser {

@@ -44,17 +44,22 @@
 
     
 }
-- (void)idDemo
+// FIXME:
+// TODO:
+- (void)idDemo// TODO:
+
 {
     id_lin someObj =(__bridge id_lin)([UIButton buttonWithType:UIButtonTypeRoundedRect]);
 
 }
-- (void)runtimeDemo{
+- (void)runtimeDemo{// TODO:
+
         Method setPlaceHolderMethod = class_getInstanceMethod(self, @selector(setPlaceholder:));
 }
 
 - (void)SDKDemo{
-    [LCXLog LCXLog];
+    [LCXLog LCXLog];// TODO:
+
     NSBundle *LCXSDKResourceBdl = [self getBundle:@"LCXSDKResource"];
     NSString * imgPath = [LCXSDKResourceBdl pathForResource:@"headPic1" ofType:@"jpg"];
     UIImage *headImg =  [UIImage imageWithContentsOfFile:imgPath];
