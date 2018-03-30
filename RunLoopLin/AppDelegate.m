@@ -11,6 +11,7 @@
 #import <Crashlytics/Crashlytics.h>
 //递归打印View子树
 // atom test
+// mvp mvvp learn
 @interface AppDelegate ()
 
 @end
