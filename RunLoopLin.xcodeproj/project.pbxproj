@@ -10,17 +10,22 @@
 		17CB85CB6F0128A5E2A0F311 /* Pods_RunLoopLin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194EE9425D3B8BBC357273A1 /* Pods_RunLoopLin.framework */; };
 		631C91B82043221000C64BBA /* LINThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C91B72043221000C64BBA /* LINThread.m */; };
 		63290BA62031EFB30072483F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BA52031EFB30072483F /* AppDelegate.m */; };
-		63290BA92031EFB30072483F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BA82031EFB30072483F /* ViewController.m */; };
-		63290BAC2031EFB30072483F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63290BAA2031EFB30072483F /* Main.storyboard */; };
+		63290BA92031EFB30072483F /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BA82031EFB30072483F /* MYViewController.m */; };
 		63290BAE2031EFB30072483F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63290BAD2031EFB30072483F /* Assets.xcassets */; };
 		63290BB12031EFB30072483F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63290BAF2031EFB30072483F /* LaunchScreen.storyboard */; };
 		63290BB42031EFB30072483F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BB32031EFB30072483F /* main.m */; };
 		63290BBE2031EFB30072483F /* RunLoopLinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BBD2031EFB30072483F /* RunLoopLinTests.m */; };
 		63290BC92031EFB40072483F /* RunLoopLinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63290BC82031EFB40072483F /* RunLoopLinUITests.m */; };
+		6903B379207B544E00B065BB /* LCXCPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6903B378207B544E00B065BB /* LCXCPManager.m */; };
+		6903B37B207B546500B065BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6903B37A207B546500B065BB /* Main.storyboard */; };
 		6931D9302060662E005EF23F /* IDTypeLin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6931D92F2060662E005EF23F /* IDTypeLin.m */; };
+		69834533207B51320027D7D5 /* DetailPageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 69834532207B51320027D7D5 /* DetailPageComponent.m */; };
+		698B044E207B3778001A78A3 /* CXLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698B044C207B3778001A78A3 /* CXLSDK.framework */; };
+		698B044F207B3778001A78A3 /* LCXSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 698B044D207B3778001A78A3 /* LCXSDKResource.bundle */; };
+		698B0450207B37BC001A78A3 /* CXLSDK.framework in Sources */ = {isa = PBXBuildFile; fileRef = 698B044C207B3778001A78A3 /* CXLSDK.framework */; };
+		698B045D207B413F001A78A3 /* DetailPageComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698B045B207B413F001A78A3 /* DetailPageComponentViewController.m */; };
+		698B045E207B413F001A78A3 /* DetailPageComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698B045C207B413F001A78A3 /* DetailPageComponentViewController.xib */; };
 		699BCAD42051C039009DCFC6 /* NSArray+IndexCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 699BCAD32051C039009DCFC6 /* NSArray+IndexCheck.m */; };
-		69B350F32057756800464DF2 /* CXLSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B350F22057756800464DF2 /* CXLSDK.framework */; };
-		69B350F520577EEF00464DF2 /* LCXSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69B350F420577EEF00464DF2 /* LCXSDKResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +53,8 @@
 		63290BA12031EFB30072483F /* RunLoopLin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunLoopLin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63290BA42031EFB30072483F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63290BA52031EFB30072483F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63290BA72031EFB30072483F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63290BA82031EFB30072483F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63290BAB2031EFB30072483F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63290BA72031EFB30072483F /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		63290BA82031EFB30072483F /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
 		63290BAD2031EFB30072483F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63290BB02031EFB30072483F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63290BB22031EFB30072483F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,11 +65,19 @@
 		63290BC42031EFB40072483F /* RunLoopLinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopLinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63290BC82031EFB40072483F /* RunLoopLinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopLinUITests.m; sourceTree = "<group>"; };
 		63290BCA2031EFB40072483F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6903B377207B544E00B065BB /* LCXCPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCXCPManager.h; sourceTree = "<group>"; };
+		6903B378207B544E00B065BB /* LCXCPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCXCPManager.m; sourceTree = "<group>"; };
+		6903B37A207B546500B065BB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6931D92F2060662E005EF23F /* IDTypeLin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDTypeLin.m; sourceTree = "<group>"; };
+		69834531207B51320027D7D5 /* DetailPageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailPageComponent.h; sourceTree = "<group>"; };
+		69834532207B51320027D7D5 /* DetailPageComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailPageComponent.m; sourceTree = "<group>"; };
+		698B044C207B3778001A78A3 /* CXLSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CXLSDK.framework; sourceTree = "<group>"; };
+		698B044D207B3778001A78A3 /* LCXSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LCXSDKResource.bundle; sourceTree = "<group>"; };
+		698B045A207B413F001A78A3 /* DetailPageComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailPageComponentViewController.h; path = RunLoopLin/ViewControllers/DetailPageComponentViewController.h; sourceTree = SOURCE_ROOT; };
+		698B045B207B413F001A78A3 /* DetailPageComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailPageComponentViewController.m; path = RunLoopLin/ViewControllers/DetailPageComponentViewController.m; sourceTree = SOURCE_ROOT; };
+		698B045C207B413F001A78A3 /* DetailPageComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailPageComponentViewController.xib; path = RunLoopLin/ViewControllers/DetailPageComponentViewController.xib; sourceTree = SOURCE_ROOT; };
 		699BCAD22051C039009DCFC6 /* NSArray+IndexCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+IndexCheck.h"; sourceTree = "<group>"; };
 		699BCAD32051C039009DCFC6 /* NSArray+IndexCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IndexCheck.m"; sourceTree = "<group>"; };
-		69B350F22057756800464DF2 /* CXLSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CXLSDK.framework; sourceTree = "<group>"; };
-		69B350F420577EEF00464DF2 /* LCXSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LCXSDKResource.bundle; sourceTree = "<group>"; };
 		CF498C5002A4DEEE0D641EE1 /* Pods-RunLoopLin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunLoopLin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunLoopLin/Pods-RunLoopLin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CB85CB6F0128A5E2A0F311 /* Pods_RunLoopLin.framework in Frameworks */,
-				69B350F32057756800464DF2 /* CXLSDK.framework in Frameworks */,
+				698B044E207B3778001A78A3 /* CXLSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,18 +150,21 @@
 		63290BA32031EFB30072483F /* RunLoopLin */ = {
 			isa = PBXGroup;
 			children = (
-				69B350F12057755800464DF2 /* Third */,
+				6903B376207B544E00B065BB /* LCXCPManager */,
+				69834530207B4D980027D7D5 /* Component */,
+				698B0459207B40F9001A78A3 /* DetailPageVC */,
+				698B044B207B3778001A78A3 /* LCXSDK */,
 				699BCAD22051C039009DCFC6 /* NSArray+IndexCheck.h */,
 				699BCAD32051C039009DCFC6 /* NSArray+IndexCheck.m */,
 				63290BA42031EFB30072483F /* AppDelegate.h */,
 				63290BA52031EFB30072483F /* AppDelegate.m */,
-				63290BA72031EFB30072483F /* ViewController.h */,
-				63290BA82031EFB30072483F /* ViewController.m */,
+				63290BA72031EFB30072483F /* MYViewController.h */,
+				63290BA82031EFB30072483F /* MYViewController.m */,
 				6931D92F2060662E005EF23F /* IDTypeLin.m */,
 				631C91B62043221000C64BBA /* LINThread.h */,
 				631C91B72043221000C64BBA /* LINThread.m */,
-				63290BAA2031EFB30072483F /* Main.storyboard */,
 				63290BAD2031EFB30072483F /* Assets.xcassets */,
+				6903B37A207B546500B065BB /* Main.storyboard */,
 				63290BAF2031EFB30072483F /* LaunchScreen.storyboard */,
 				63290BB22031EFB30072483F /* Info.plist */,
 				63290BB32031EFB30072483F /* main.m */,
@@ -175,13 +190,42 @@
 			path = RunLoopLinUITests;
 			sourceTree = "<group>";
 		};
-		69B350F12057755800464DF2 /* Third */ = {
+		6903B376207B544E00B065BB /* LCXCPManager */ = {
 			isa = PBXGroup;
 			children = (
-				69B350F420577EEF00464DF2 /* LCXSDKResource.bundle */,
-				69B350F22057756800464DF2 /* CXLSDK.framework */,
+				6903B377207B544E00B065BB /* LCXCPManager.h */,
+				6903B378207B544E00B065BB /* LCXCPManager.m */,
 			);
-			path = Third;
+			path = LCXCPManager;
+			sourceTree = "<group>";
+		};
+		69834530207B4D980027D7D5 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				69834531207B51320027D7D5 /* DetailPageComponent.h */,
+				69834532207B51320027D7D5 /* DetailPageComponent.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		698B044B207B3778001A78A3 /* LCXSDK */ = {
+			isa = PBXGroup;
+			children = (
+				698B044C207B3778001A78A3 /* CXLSDK.framework */,
+				698B044D207B3778001A78A3 /* LCXSDKResource.bundle */,
+			);
+			path = LCXSDK;
+			sourceTree = "<group>";
+		};
+		698B0459207B40F9001A78A3 /* DetailPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				698B045A207B413F001A78A3 /* DetailPageComponentViewController.h */,
+				698B045B207B413F001A78A3 /* DetailPageComponentViewController.m */,
+				698B045C207B413F001A78A3 /* DetailPageComponentViewController.xib */,
+			);
+			name = DetailPageVC;
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,16 +299,16 @@
 				TargetAttributes = {
 					63290BA02031EFB30072483F = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					63290BB82031EFB30072483F = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 63290BA02031EFB30072483F;
 					};
 					63290BC32031EFB40072483F = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 63290BA02031EFB30072483F;
 					};
 				};
@@ -295,9 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63290BB12031EFB30072483F /* LaunchScreen.storyboard in Resources */,
+				6903B37B207B546500B065BB /* Main.storyboard in Resources */,
 				63290BAE2031EFB30072483F /* Assets.xcassets in Resources */,
-				69B350F520577EEF00464DF2 /* LCXSDKResource.bundle in Resources */,
-				63290BAC2031EFB30072483F /* Main.storyboard in Resources */,
+				698B044F207B3778001A78A3 /* LCXSDKResource.bundle in Resources */,
+				698B045E207B413F001A78A3 /* DetailPageComponentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,11 +440,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63290BA92031EFB30072483F /* ViewController.m in Sources */,
+				698B0450207B37BC001A78A3 /* CXLSDK.framework in Sources */,
+				69834533207B51320027D7D5 /* DetailPageComponent.m in Sources */,
+				63290BA92031EFB30072483F /* MYViewController.m in Sources */,
 				699BCAD42051C039009DCFC6 /* NSArray+IndexCheck.m in Sources */,
+				6903B379207B544E00B065BB /* LCXCPManager.m in Sources */,
 				631C91B82043221000C64BBA /* LINThread.m in Sources */,
 				63290BB42031EFB30072483F /* main.m in Sources */,
 				6931D9302060662E005EF23F /* IDTypeLin.m in Sources */,
+				698B045D207B413F001A78A3 /* DetailPageComponentViewController.m in Sources */,
 				63290BA62031EFB30072483F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63290BAA2031EFB30072483F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63290BAB2031EFB30072483F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63290BAF2031EFB30072483F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -565,11 +606,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				 
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RunLoopLin/Third",
+					"$(PROJECT_DIR)/RunLoopLin/LCXSDK",
 				);
 				INFOPLIST_FILE = RunLoopLin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -585,11 +626,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				 
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RunLoopLin/Third",
+					"$(PROJECT_DIR)/RunLoopLin/LCXSDK",
 				);
 				INFOPLIST_FILE = RunLoopLin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

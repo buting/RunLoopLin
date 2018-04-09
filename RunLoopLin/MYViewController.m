@@ -6,20 +6,22 @@
 //  Copyright © 2018年 buTing. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MYViewController.h"
 #import "LINThread.h"
 #import <Crashlytics/Crashlytics.h>
-#import "CXLSDK/CXLSDK.h"
+//#import ""
 #include <objc/runtime.h>
 #import "IDTypeLin.m"
-@interface ViewController ()
+#import "LCXCPManager.h"
+@interface MYViewController ()
 
 @property(nonatomic,strong) LINThread * thread;
 @property(nonatomic) BOOL isFinished;
-@property (weak, nonatomic) IBOutlet UIImageView *headImg;
+@property(nonatomic,strong) UIViewController *secVC ;
+//@property (weak, nonatomic) IBOutlet UIImageView *headImg;
 @end
 
-@implementation ViewController
+@implementation MYViewController
 
 
 - (IBAction)crashButtonTapped:(id)sender {
@@ -30,26 +32,37 @@
     [super viewDidLoad];
 //    [self viewDidLoad]; //递归调用，导致程序崩溃
     
-    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    button.frame = CGRectMake(20, 50, 100, 30);
-    [button setTitle:@"Crash" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(crashButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+//    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    button.frame = CGRectMake(20, 50, 100, 30);
+//    [button setTitle:@"Crash" forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(crashButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:button];
     
 //    [self demo1];
 //    [self demo2];
-    [self SDKDemo];
+//    [self SDKDemo];
 //    [self ]
     NSArray *tmpArray = @[@"1apple",@"2banana",@"3blue berry"];
     [tmpArray enumerateObjectsUsingBlock:^(NSString*  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSLog(@"%@",obj);
         
     }];
+    
+
 
     
 }
 // FIXME:
 // TODO:
+
+- (void) LCXCPManagerDemo{
+   self.secVC = [LCXCPManager DetailPageComponent_viewController:@"id001"];
+    
+    NSLog(@"%@",self.secVC);
+    [self.navigationController pushViewController:self.secVC animated:NO];
+    NSLog(@"%@",self.navigationController);
+
+}
 - (void)idDemo// TODO:
 
 {
@@ -62,13 +75,13 @@
 }
 
 - (void)SDKDemo{
-    [LCXLog LCXLog];// TODO:
+//    [LCXLog LCXLog];// TODO:
 
-    NSBundle *LCXSDKResourceBdl = [self getBundle:@"LCXSDKResource"];
-    NSString * imgPath = [LCXSDKResourceBdl pathForResource:@"headPic1" ofType:@"jpg"];
-    UIImage *headImg =  [UIImage imageWithContentsOfFile:imgPath];
+//    NSBundle *LCXSDKResourceBdl = [self getBundle:@"LCXSDKResource"];
+//    NSString * imgPath = [LCXSDKResourceBdl pathForResource:@"headPic1" ofType:@"jpg"];
+//    UIImage *headImg =  [UIImage imageWithContentsOfFile:imgPath];
     
-   self.headImg.image =  headImg;
+//   self.headImg.image =  headImg;
 //    imgView.frame = self.view.bounds;
 //    [self.headImg sizeToFit];
 //    [self.view addSubview:imgView];
@@ -92,7 +105,10 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
 //    _isFinished = YES;
-    [NSThread exit];
+    NSLog(@"TOUCHES BEGAN");
+    [self LCXCPManagerDemo];
+
+//    [NSThread exit];
 }
 
 - (void)timerMethod {

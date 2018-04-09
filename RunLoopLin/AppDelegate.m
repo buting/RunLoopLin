@@ -29,7 +29,7 @@
 }
 - (void) logUser {
     
-    [[NSNotificationCenter defaultCenter] addObserverForName:@"TEST" object:nil queue:nil usingBlock:nil]; // nanfengzi nsnotification and multithread
+//    [[NSNotificationCenter defaultCenter] addObserverForName:@"TEST" object:nil queue:nil usingBlock:nil]; // nanfengzi nsnotification and multithread
     
     // TODO: Use the current user's information
     // You can call any combination of these three methods
